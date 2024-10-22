@@ -8,6 +8,16 @@
              mc:Ignorable="d" 
              Name="item">
     <Border Padding="5" Margin="0 5 0 5" HorizontalAlignment="Stretch">
-            
+        <Border.Style>
+            <Style TargetType="Border">
+                <Setter Property="Background" Value="Transparent" />
+                <Style.Triggers>
+                    <Trigger Property="IsMouseOver" Value="True">
+                        <Setter Property="Background" Value="#364c8f" />
+                    </Trigger>
+                </Style.Triggers>
+            </Style>
+        </Border.Style>
+        
     </Border>
 </UserControl>
