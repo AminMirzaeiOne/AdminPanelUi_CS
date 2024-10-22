@@ -29,6 +29,48 @@ namespace AdminPanelUi.Controls
         public static readonly DependencyProperty EllipseBackground2Property = DependencyProperty.Register("EllipseBackground2", typeof(Color), typeof(InfoCard));
 
 
+        public string Title
+        {
+            get { return (string)GetValue(TitleProperty); }
+            set { SetValue(TitleProperty, value); }
+        }
+
+        public string Number
+        {
+            get { return (string)GetValue(NumberProperty); }
+            set { SetValue(NumberProperty, value); }
+        }
+
+        public FontAwesome.Sharp.IconChar Icon
+        {
+            get { return (FontAwesome.Sharp.IconChar)GetValue(IconProperty); }
+            set { SetValue(IconProperty, value); }
+        }
+
+        public Color Background1
+        {
+            get { return (Color)GetValue(Background1Property); }
+            set { SetValue(Background1Property, value); }
+        }
+
+        public Color Background2
+        {
+            get { return (Color)GetValue(Background2Property); }
+            set { SetValue(Background2Property, value); }
+        }
+
+        public Color EllipseBackground1
+        {
+            get { return (Color)GetValue(EllipseBackground1Property); }
+            set { SetValue(EllipseBackground1Property, value); }
+        }
+
+        public Color EllipseBackground2
+        {
+            get { return (Color)GetValue(EllipseBackground2Property); }
+            set { SetValue(EllipseBackground2Property, value); }
+        }
+
         public InfoCard()
         {
             InitializeComponent();
