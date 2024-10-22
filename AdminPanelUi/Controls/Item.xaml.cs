@@ -30,6 +30,12 @@ namespace AdminPanelUi.Controls
             set { SetValue(TitleProperty, value); }
         }
 
+        public string Desc
+        {
+            get { return (string)GetValue(DescProperty); }
+            set { SetValue(DescProperty, value); }
+        }
+
         public Item()
         {
             InitializeComponent();
