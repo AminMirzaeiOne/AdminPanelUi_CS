@@ -24,6 +24,11 @@ namespace AdminPanelUi.Controls
         public static readonly DependencyProperty DescProperty = DependencyProperty.Register("Desc", typeof(string), typeof(Item));
         public static readonly DependencyProperty IconProperty = DependencyProperty.Register("Icon", typeof(FontAwesome.Sharp.IconChar), typeof(Item));
 
+        public string Title
+        {
+            get { return (string)GetValue(TitleProperty); }
+            set { SetValue(TitleProperty, value); }
+        }
 
         public Item()
         {
