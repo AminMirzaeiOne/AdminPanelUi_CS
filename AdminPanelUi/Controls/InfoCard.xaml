@@ -7,6 +7,12 @@
              xmlns:fa="http://schemas.awesome.incremented/wpf/xaml/fontawesome.sharp"
              mc:Ignorable="d" Name="infoCard" Width="316" Height="140">
     <Border Margin="0 0 25 0">
-            
+        <Border.Background>
+            <LinearGradientBrush StartPoint="0,0" EndPoint="1,2">
+                <GradientStop Color="{Binding Path=Background1,ElementName=infoCard}" Offset="0" />
+                <GradientStop Color="{Binding Path=Background2,ElementName=infoCard}" Offset="1" />
+            </LinearGradientBrush>
+        </Border.Background>
+        
     </Border>
 </UserControl>
