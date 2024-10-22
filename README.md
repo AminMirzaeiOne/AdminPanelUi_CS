@@ -18,4 +18,4 @@ Designing the user interface of an admin panel in WPF<br />
 2 - Choose from the menu options<br />
 
 <h2>📷 Screenshots</h2>
-<img width="674" alt="Capture28" src="https://github.com/user-attachments/assets/9af1f05d-045a-4652-9f04-3e8e314f2618">
+<img width="674" alt="Capture28" src="https://github.com/user-attachments/assets/ce577697-9772-43b4-98fc-0193393ed938">
