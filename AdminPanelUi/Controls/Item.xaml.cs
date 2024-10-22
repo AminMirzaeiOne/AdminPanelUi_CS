@@ -36,6 +36,12 @@ namespace AdminPanelUi.Controls
             set { SetValue(DescProperty, value); }
         }
 
+        public FontAwesome.Sharp.IconChar Icon
+        {
+            get { return (FontAwesome.Sharp.IconChar)GetValue(IconProperty); }
+            set { SetValue(IconProperty, value); }
+        }
+
         public Item()
         {
             InitializeComponent();
