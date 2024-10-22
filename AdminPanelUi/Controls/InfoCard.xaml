@@ -6,7 +6,7 @@
              xmlns:local="clr-namespace:AdminPanelUi.Controls"
              xmlns:fa="http://schemas.awesome.incremented/wpf/xaml/fontawesome.sharp"
              mc:Ignorable="d" Name="infoCard" Width="316" Height="140">
-    <Grid>
+    <Border>
             
-    </Grid>
+    </Border>
 </UserControl>
