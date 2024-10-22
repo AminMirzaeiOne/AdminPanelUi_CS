@@ -35,11 +35,11 @@
                             </LinearGradientBrush>
                         </Border.Background>
 
-                        <TextBlock Text="JP" Foreground="#ffffff" FontSize="22" FontWeight="SemiBold" TextAlignment="Center" VerticalAlignment="Center" Margin="3 0 0 2"/>
+                        <TextBlock Text="AM" Foreground="#ffffff" FontSize="22" FontWeight="SemiBold" TextAlignment="Center" VerticalAlignment="Center" Margin="3 0 0 2"/>
                     </Border>
 
                     <StackPanel Margin="10 0 0 0" VerticalAlignment="Center">
-                        <TextBlock Text="Jonathan Perman" FontSize="15" Margin="0 0 0 5" Foreground="#C2CFFF"/>
+                        <TextBlock Text="Amin Mirzaei" FontSize="15" Margin="0 0 0 5" Foreground="#C2CFFF"/>
                         <TextBlock Text="Beta 1.3" Foreground="#7788bf" FontSize="11"/>
                     </StackPanel>
                 </StackPanel>
@@ -138,7 +138,7 @@
                 </StackPanel>
 
                 <!--Title-->
-                <TextBlock FontSize="26" Foreground="#CCD7FF" Margin="50 35 0 20" Text="Good Afternoon, Perman" HorizontalAlignment="Left"/>
+                <TextBlock FontSize="26" Foreground="#CCD7FF" Margin="50 35 0 20" Text="Good Afternoon, Amin" HorizontalAlignment="Left"/>
 
                 <!--Info Cards-->
                 <Grid Grid.Row="1" Margin="50 20 15 40">
