@@ -33,5 +33,9 @@ namespace AdminPanelUi
             }
         }
 
+        private void btnExit_Click(object sender, RoutedEventArgs e)
+        {
+            System.Windows.Application.Current.Shutdown();
+        }
     }
 }
