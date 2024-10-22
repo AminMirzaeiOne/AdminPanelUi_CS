@@ -18,6 +18,18 @@
                 </Style.Triggers>
             </Style>
         </Border.Style>
-        
+
+        <StackPanel Orientation="Horizontal">
+            <Grid Width="45" Height="45" Margin="25 0 0 0">
+                <Border CornerRadius="10" Background="#152457" />
+                <fa:IconImage Icon="{Binding Path=Icon,ElementName=item}" Foreground="#bcc6e6" Width="25"/>
+            </Grid>
+
+            <StackPanel Margin="10 0 0 0" VerticalAlignment="Center">
+                <TextBlock Text="{Binding Path=Title,ElementName=item}" FontSize="14" Foreground="#7C8DC3"/>
+                <TextBlock Text="{Binding Path=Desc,ElementName=item}" FontSize="11" Foreground="#7C8DC3" Margin="0 3 0 0"/>
+            </StackPanel>
+        </StackPanel>
+
     </Border>
 </UserControl>
