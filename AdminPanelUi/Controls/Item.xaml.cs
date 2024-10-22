@@ -21,6 +21,7 @@ namespace AdminPanelUi.Controls
     public partial class Item : UserControl
     {
         public static readonly DependencyProperty TitleProperty = DependencyProperty.Register("Title", typeof(string), typeof(Item));
+        public static readonly DependencyProperty DescProperty = DependencyProperty.Register("Desc", typeof(string), typeof(Item));
 
 
         public Item()
