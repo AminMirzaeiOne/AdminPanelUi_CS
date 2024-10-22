@@ -120,6 +120,13 @@
             <Setter Property="VerticalAlignment" Value="Center" />
         </Style>
 
+        <Style x:Key="titleIcon" TargetType="fa:IconImage">
+            <Setter Property="Foreground" Value="#7B82EA" />
+            <Setter Property="Width" Value="18" />
+            <Setter Property="Height" Value="18" />
+            <Setter Property="Margin" Value="0 3 0 0" />
+        </Style>
+
 
     </Application.Resources>
 </Application>
